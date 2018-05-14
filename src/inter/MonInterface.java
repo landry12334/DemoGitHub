@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package demogithub;
+package inter;
 
 /**
  *
  * @author LANDRY
  */
-public class MonInterface {
+public interface MonInterface  {
     
-    public String direBonjour(){
-        return "je vous dit bonjour";
+    default String saluer(){
+        return "je dis bonjour";
     }
     
-   
-    
-}
+    }
+
