@@ -18,10 +18,9 @@ public class DemoGitHub {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("ma première demo Git");
+        System.out.println("demo sur les branches");
         
-         System.out.println("ma première demo Git"); 
-         System.out.println("ma première demo Git");
+         
     }
     
 }
